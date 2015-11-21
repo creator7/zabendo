@@ -1,0 +1,1 @@
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27211.715654970565!2d74.26595062021097!3d31.511401145160107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919030a758931b1%3A0xd2c9ccbb7f4c5601!2sAllama+Iqbal+Town%2C+Lahore%2C+Pakistan!5e0!3m2!1sen!2s!4v1445654588234" width="100%" height="200" frameborder="0" style="border:0"

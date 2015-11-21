@@ -1,0 +1,228 @@
+
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   
+#features
+{
+	text-align:center;
+}
+#features img
+{
+	margin-bottom:20px;
+}
+#inputMessage
+{
+	margin-bottom:15px;
+}
+#inputPassword
+{
+	margin-bottom:15px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body
+{
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+	background-color:#F1EFF0;
+}
+.well p
+{
+	color:#000000;
+}
+.well .page-header
+{
+	margin-top:0;
+}
+
+.well .page-header .h1
+{
+	margin-top:0;
+}
+.downloads
+{
+	height:46px;
+}
+.modal-header
+{
+	background-color:#D4D3D3;
+}
+.myLogin
+{
+	margin-left:100px;
+}
+.modal-title
+{
+	color:#6B6767;
+}
+.footer-content h3,ul
+{
+	color:#FDFDFD;
+	list-style-type:none;
+}
+.footer-content p
+{
+	color:#FDFDFD;
+}
+.panel-footer 
+{
+	height:45px;
+	margin-top:197px;
+}
+
+.panel-footer img
+{
+	margin-top:-30px;
+}
+
+	#mynavbar{
+		z-index:3;
+		border:1px solid #CCC;
+	}
+	#mynavbar.affix {
+    position: fixed;
+	top:0;
+	width:100%;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+#searchInput
+{
+	width:200px;
+}   
+   
+.navbar-brand
+{
+	padding-bottom:1px;
+	padding-top:8px;
+}
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel .item
+{
+	height:400px;
+}
+
+#slide1
+{
+	background:url(../../images/carousel_medium_01.jpg) top center no-repeat;
+}
+
+#slide2
+{
+	background:url(../../images/carousel_medium_02.jpg) top center no-repeat;
+}
+#slide3
+{
+	background:url(../../images/carousel_medium_03.jpg) top center no-repeat;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert
+{
+	margin-top:20px;
+	display:block;
+}
+
+#header-well{
+	height:100px;
+	background-color:#eee;
+	margin-bottom:0px;
+}
+#deptcontent{
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:15px;
+	border:2px dashed #3CC;
+}
+#deptpanel{
+	border:1px solid #3CC;
+}
+#deptname{
+	font-family:Georgia, serif;
+	border:1px solid #3CC;
+}
+
+#contactperson{
+	margin-top:70px;
+	margin-bottom:50px;
+}
+
+.admin-container{
+			width:70%;
+			margin:auto;
+			margin-bottom:50px;
+		}
+		#adminnavbar{
+			background-color:#f0ad4e;
+		}
+		
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) 
+{
+	
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) 
+{
+	
+	#myCarousel .item
+	{
+		height:310px;
+	}
+	
+	#slide1
+	{
+		background:url(../../images/carousel_small_01.jpg) top center no-repeat;
+	}
+	
+	#slide2
+	{
+		background:url(../../images/carousel_small_02.jpg) top center no-repeat;
+	}
+	#slide3
+	{
+		background:url(../../images/carousel_small_03.jpg) top center no-repeat;
+	}
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) 
+{
+	#myCarousel .item
+	{
+		height:450px;
+	}
+	
+	#slide1
+	{
+		background:url(../../images/carousel_large_01.jpg) top center no-repeat;
+	}
+	
+	#slide2
+	{
+		background:url(../../images/carousel_large_02.jpg) top center no-repeat;
+	}
+	#slide3
+	{
+		background:url(../../images/carousel_large_03.jpg) top center no-repeat;
+	}
+	
+	
+}
