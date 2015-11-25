@@ -1,6 +1,7 @@
 
 <head><?php include ("../admin/includefiles.html");
-	require "../requires/admin_chk.php"; ?> </head>
+	require "../requires/admin_chk.php"; ?>
+    <title>Admin</title> </head>
 <body>
 	<?php include "../includes/adminnavbar.php"; ?>
    <div class="container">

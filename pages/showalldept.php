@@ -5,6 +5,7 @@ require "../requires/admin_chk.php";
 $departments = $database->select("department",array('id','deptname','contact','contact_person'),'');
 ?>
 <head>
+<title>Departments</title>
 </head>
 <body>
 <?php include "../includes/adminnavbar.php"; ?>

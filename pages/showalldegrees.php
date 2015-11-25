@@ -5,6 +5,7 @@ require "../requires/admin_chk.php";
 $degrees = $database->select("degree",array('id','degreename','dept_id'),'');
 ?>
 <head>
+<title>Degrees</title>
 </head>
 <body>
 <?php include "../includes/adminnavbar.php"; ?>

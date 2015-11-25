@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Update Branch</title>
+<title>Update Course</title>
 	
 </head>
 <?php $id = $_GET['id'];

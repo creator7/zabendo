@@ -3,7 +3,9 @@
 if(!isset($_GET['r'])){
 	include "../requires/chk_cookie.php";
 }
-include ("../includes/includefiles.html"); ?></head>
+include ("../includes/includefiles.html"); ?>
+<title>Zabendo</title>
+</head>
 <body>
 
 	<?php

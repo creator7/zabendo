@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>add degree</title>
+<title>Add Degree</title>
 <?php
 	require("../requires/connection.php");
 	include "../includes/includefiles.html";

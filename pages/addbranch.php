@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>add branch</title>
+<title>Add Branch</title>
 <?php
 	include "../includes/includefiles.html";
 	require "../requires/admin_chk.php";

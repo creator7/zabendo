@@ -5,6 +5,7 @@ require "../requires/admin_chk.php";
 $courses = $database->select("course",array('id','coursename','cr_hr'),'');
 ?>
 <head>
+<title>Courses</title>
 </head>
 <body>
 <?php include "../includes/adminnavbar.php"; ?>

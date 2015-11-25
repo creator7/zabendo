@@ -5,6 +5,7 @@ require "../requires/admin_chk.php";
 $branches = $database->select("branch",array('id','branchname','location','contact'),'');
 ?>
 <head>
+<title>Branches</title>
 </head>
 <body>
 <?php include "../includes/adminnavbar.php"; ?>
