@@ -50,9 +50,11 @@ $branches = $database->select("branch",'*',array('id'=>$id)); ?>
 					foreach($deptbranch as $db){
 						if($db['dept_id'] == $dept['id']){
 							echo "<option value='".$dept['id']."' selected>".$dept['deptname']."</option>";
+								
 						}
 						else{
 							echo "<option value='".$dept['id']."'>".$dept['deptname']."</option>";
+								
 						}
 					}
 				}

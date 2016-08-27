@@ -122,10 +122,10 @@
            </div><!-- end emailModal-->
            
             <!-- loginModal -->
-          <div class="modal fade text-center" id="loginModal">
-                            	<div class="modal-dialog text-center">
+          <div class="modal fade" id="loginModal">
+                            	<div class="modal-dialog">
                                 
-                                	<div class="modal-content col-6 myLogin">
+                                	<div class="modal-content col-6 col-offset-3 myLogin">
                                     
                                     	<div class="modal-header img-rounded">
                                         	<button class="close" data-dismiss="modal">&times;</button>

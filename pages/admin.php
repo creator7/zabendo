@@ -1,5 +1,5 @@
 
-<head><?php include ("../admin/includefiles.html");
+<head><?php include ("../includes/includefiles.html");
 	require "../requires/admin_chk.php"; ?>
     <title>Admin</title> </head>
 <body>
