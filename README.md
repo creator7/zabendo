@@ -8,7 +8,7 @@ instructions/requirements
 
 3- run apache
 
-4- databse file is in Database folder of the project. import database using php myadmin.
+4- database file is in Database folder of the project. import database using php myadmin.
 
 5- run the website
 
